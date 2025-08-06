@@ -1,0 +1,96 @@
+// Faça um Programa que verifique se uma letra digitada é vogal ou consoante.
+function determinaLetra(letra) {
+	if (vogais.includes(letra)) {
+		return 'É vogal';
+	} else if (consoantes.includes(letra)) {
+		return 'É consoante';
+	} else {
+		return 'Valor invalido';
+	}
+}
+
+const vogais = [
+	'a',
+	'e',
+	'i',
+	'o',
+	'u',
+	'á',
+	'é',
+	'í',
+	'ó',
+	'ú',
+	'â',
+	'ê',
+	'î',
+	'ô',
+	'û',
+	'ã',
+	'õ',
+	'à',
+	'A',
+	'E',
+	'I',
+	'O',
+	'U',
+	'Á',
+	'É',
+	'Í',
+	'Ó',
+	'Ú',
+	'Â',
+	'Ê',
+	'Î',
+	'Ô',
+	'Û',
+	'Ã',
+	'Õ',
+	'À',
+];
+
+const consoantes = [
+	'b',
+	'c',
+	'd',
+	'f',
+	'g',
+	'h',
+	'j',
+	'k',
+	'l',
+	'm',
+	'n',
+	'p',
+	'q',
+	'r',
+	's',
+	't',
+	'v',
+	'w',
+	'x',
+	'y',
+	'z',
+	'B',
+	'C',
+	'D',
+	'F',
+	'G',
+	'H',
+	'J',
+	'K',
+	'L',
+	'M',
+	'N',
+	'P',
+	'Q',
+	'R',
+	'S',
+	'T',
+	'V',
+	'W',
+	'X',
+	'Y',
+	'Z',
+];
+
+console.log(determinaLetra('ã'));
